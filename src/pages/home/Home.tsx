@@ -18,6 +18,9 @@ function Home (props: homeProps){
                 </div>
              ) : (
                 <div style={{
+                    fontFamily:"sans-serif",
+                    color:"blue", 
+                    textAlign:"center" 
                     
                 }}>
                     <h2>Login</h2>

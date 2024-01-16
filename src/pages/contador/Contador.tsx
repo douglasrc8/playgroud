@@ -9,7 +9,12 @@ function Contador(){
         }
 
     return(
-        <div>
+        <div style={{
+            fontFamily:"sans-serif",
+            color:"blue", 
+            textAlign:"center" 
+            
+        }}>
             <h2>Componente contador</h2>
              <p>O valor atual é: {valor}</p>
              <button onClick= {hansleClick}>Adicionar + 1</button>

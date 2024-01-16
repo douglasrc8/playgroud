@@ -14,7 +14,12 @@ function Tarefa(){
     
 
     return(
-        <div>
+        <div style={{
+            fontFamily:"sans-serif",
+            color:"blue", 
+            textAlign:"center" 
+            
+        }}>
             <h2>Componente Tarefa</h2>
             <h3>{tarefa}</h3>
             <p>Conclua a tarefa</p>
