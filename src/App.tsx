@@ -6,14 +6,22 @@ import Tarefa from './pages/tarefa/Tarefa'
 function App() {
 
   return (
-  <>
-  <Home 
-    titulo = "componente Home"
-    texto = "Este texto foi enviado pelo componemte app"
-  />
-<Contador />
-<Tarefa />
-  </>
+    <>
+
+      <div style={{
+        fontFamily: "sans-serif",
+        color: "blue",
+        textAlign: "center"
+
+      }}>
+        <Home
+          titulo="Componente Home"
+          texto="Este texto foi enviado pelo componemte app"
+        />
+        <Contador />
+        <Tarefa />
+      </div>
+    </>
   )
 }
 
